@@ -1,9 +1,11 @@
 import './App.css';
-
+import './pages/nav.jsx'
 function App() {
   return (
-   <h1>test</h1>
-    
+   <div>
+    <h1>test</h1>
+    <nav />
+   </div>
   );
 }
 
