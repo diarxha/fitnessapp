@@ -6,10 +6,11 @@ import Home from './pages/Home';
 import ExerciseDetail from './pages/ExerciseDetail';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+
 function App() {
   return (
-    <Box width="400px">
-      Navbar
+    <Box width="400px" sx={{width: {xl: '1448px'}}} m='auto'>
+      <Navbar />
       <Routes>
         <Route path="/" element ={<Home />}/>
         <Route path="/exercise/:id" element={<ExerciseDetail />} />
