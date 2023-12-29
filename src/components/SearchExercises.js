@@ -64,7 +64,8 @@ const SearchExercises = () => {
         value=''
         onChange={(e) => setSearch(e.target.value.toLowerCase())}
         placeholder='Search Exercises'
-        type='text'/>
+        type="number" 
+        />
 
         <Button className='search-btn'
         sx={{
